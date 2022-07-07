@@ -1,0 +1,31 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(252, 0, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:150px;
+    height: 150px;
+    border: 10px outset beige;
+    outline: none;
+}
+button:hover{
+ cursor: pointer;
+ opacity:.8;
+}
+#btn__red{
+    background-color: #ea4335;
+}
+#btn__green{
+    background-color: #34a853;
+}
+#btn__blue{
+    background-color: #4285f4;
+}
+#btn__yellow{
+    background-color: #fbbc05;
+}
